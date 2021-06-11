@@ -173,7 +173,7 @@ class Player {
 
 let titleFont;
 function preload() {
-  soundFormats("wav", "mp3");
+  //soundFormats("wav", "mp3");
 
   var i;
   for (i = 0; i < 3; i++) {
@@ -185,7 +185,7 @@ function preload() {
   }
 
   titleFont = loadFont("assets/Staatliches-Regular.ttf");
-  assets.sfx.footsteps = loadSound("assets/footsteps.ogg");
+  //assets.sfx.footsteps = loadSound("assets/footsteps.ogg");
 
   assets.trashbin = loadImage("assets/trashbin.png");
 }
